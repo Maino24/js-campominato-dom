@@ -173,7 +173,8 @@ function creazioneQuadratino(num){
  if(array.includes(num) ){
     divQ.addEventListener(`click`, function(){
       divQ.classList.add(`quadratobomba`) 
-      document.write('<h1>'+ `HAI PERSO!` +'</h1>') 
+      //document.write('<h1>'+`HAI PERSO!`+'</h1>'); 
+      document.getElementById(`output`).innerHTML= `HAI PERSO!`
     })
  }else{ 
 }
