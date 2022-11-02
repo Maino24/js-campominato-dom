@@ -171,14 +171,15 @@ function creazioneQuadratino(num){
  divQ.classList.add(`quadrato`);
  divQ.innerHTML = num
  if(array.includes(num) ){
-    divQ.addEventListener(`click`, function(){
+    divQ.addEventListener(`click`, function() {
       divQ.classList.add(`quadratobomba`) 
       //document.write('<h1>'+`HAI PERSO!`+'</h1>'); 
       document.getElementById(`output`).innerHTML= `HAI PERSO!`
+      
+    
     })
  }else{ 
 }
-
  return divQ
 }
 
@@ -199,17 +200,16 @@ console.log(array)
 for(let i = 0; i < 100; i++){
         let elemento = creazioneQuadratino( i + 1)
         console.log(elemento);
+        
         let check =  array.includes(elemento)
         elemento.addEventListener(`click`, function(){
             console.log(this);
             this.classList.toggle(`attivazione`)
             
-          
             
 
            })
     
-           
 
    
     griglia.append(elemento)
