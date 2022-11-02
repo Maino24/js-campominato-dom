@@ -1,16 +1,19 @@
 html{
-    background-color: #7FFFD4;
+    /*background-color: #7FFFD4;*/
 }
 
 .main{
     justify-content: space-between;
     vertical-align: middle;
+    
 }
+
+
 
 #griglia{
    display: flex;
    margin: auto;
-   width: 80%;
+   width: 40%;
    border: 1px solid black; 
    flex-wrap: wrap;
 }
@@ -38,6 +41,6 @@ html{
     background-color: #7FFFD4;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 

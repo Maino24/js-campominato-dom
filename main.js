@@ -165,11 +165,11 @@ function genera(){
     document.getElementById(`griglia`).style.display = "flex";
 let griglia = document.getElementById(`griglia`);
 
-function creazioneQuadratino(){
+function creazioneQuadratino(num){
 
  const divQ = document.createElement(`div`);
  divQ.classList.add(`quadrato`);
- 
+ divQ.innerHTML = num
  return divQ
 
 }
@@ -186,10 +186,10 @@ for(let i = 0; i < 100; i++){
         elemento.addEventListener(`click`, function(){
             console.log(this);
             this.classList.toggle(`attivazione`)
-            somma = i
-            somma = somma + 1
-           console.log(somma)
-           elemento.innerText= `${somma}`
+            //somma = i
+            //somma = somma + 1
+           //console.log(somma)
+           //elemento.innerText= `${somma}`
 
            })
     
