@@ -19,28 +19,38 @@ html{
 }
 
 .quadrato{
+    display: flex;
     border: 1px solid black;
     width: calc(100% / 10);
     aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .quadratoDue{
+    display: flex;
     border: 1px solid black;
     width: calc(100% / 9);
     aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .quadratoTre{
+    display: flex;
     border: 1px solid black;
     width: calc(100% / 7);
     aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .attivazione{
     display: flex;
     background-color: #7FFFD4;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+    
 }
 
