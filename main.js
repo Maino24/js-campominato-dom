@@ -175,8 +175,15 @@ function creazioneQuadratino(num){
 }
 console.log(creazioneQuadratino)
 
+array = []
 
+//genero e ineririsco nell'array 16 numeri casuali
+for( i = 0; i < 17; i++){
+    numeroRandom = Math.floor(Math.random() * 100) + 1;
+    array.push(numeroRandom)
+}
 
+console.log(array)
 
 //inseriamo il quadrato creato dalla funzione nella griglia
 //creo ciclo for che mi crea i 100 quadratini
