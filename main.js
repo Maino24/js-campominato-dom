@@ -172,12 +172,10 @@ function creazioneQuadratino(num){
  divQ.innerHTML = num
  if(array.includes(num) ){
     divQ.addEventListener(`click`, function(){
-      divQ.classList.add(`quadratobomba`)  
+      divQ.classList.add(`quadratobomba`) 
+      document.write('<h1>'+ `HAI PERSO!` +'</h1>') 
     })
-    
- }else{
-   
-    
+ }else{ 
 }
 
  return divQ
