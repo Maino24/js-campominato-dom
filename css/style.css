@@ -26,6 +26,7 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    background-color: #7FFFD4;
 }
 
 .quadratoDue{
@@ -36,6 +37,8 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    background-color: #7FFFD4;
+
 }
 
 .quadratoTre{
@@ -46,11 +49,13 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    background-color: #7FFFD4;
+
 }
 
 .attivazione{
     display: flex;
-    background-color: #7FFFD4;
+    background-color: #1d0bc3;
     
 }
 
