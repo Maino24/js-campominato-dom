@@ -169,10 +169,17 @@ function creazioneQuadratino(num){
 
  const divQ = document.createElement(`div`);
  divQ.classList.add(`quadrato`);
- divQ.innerHTML = num
- return divQ
-
+ 
+ if(array.includes(num) ){
+    divQ.classList.add(`quadratobomba`)
+ }else{
+   
+    
 }
+
+ return divQ
+}
+
 console.log(creazioneQuadratino)
 
 array = []
@@ -193,10 +200,7 @@ for(let i = 0; i < 100; i++){
         elemento.addEventListener(`click`, function(){
             console.log(this);
             this.classList.toggle(`attivazione`)
-            //somma = i
-            //somma = somma + 1
-           //console.log(somma)
-           //elemento.innerText= `${somma}`
+            
 
            })
     
