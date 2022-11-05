@@ -1,4 +1,25 @@
-document.getElementById(`griglia`).style.display = "none";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//document.getElementById(`griglia`).style.display = "none";
 /*let button = document.getElementById(`paly`)
 let inputLivello = document.getElementById(`generaLivelloUNo`)
 //let inputLivelloUno = document.getElementById(`generaLivelloUno`) 
@@ -154,8 +175,8 @@ if(inputLivello = `uno`){
 
 
 
-
 /* PRIMO LIVELLO*/
+/*
 document.getElementById(`generaLivelloUno`).onclick = function() {genera()}
 function genera(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
@@ -218,9 +239,9 @@ for(let i = 0; i < 100; i++){
 
 }
 
-
+*/
 /* SECONDO LIVELLO */
-
+/*
 document.getElementById(`generaLivelloDue`).onclick = function() {generaDue()}
 function generaDue(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
@@ -264,9 +285,9 @@ for(let i = 0; i < 81; i++){
 }
 }
 
-
+*/
 /* TERZO LIVELLO */
-
+/*
 document.getElementById(`generaLivelloTre`).onclick = function() {generaTre()}
 function generaTre(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
@@ -309,3 +330,4 @@ for(let i = 0; i < 49; i++){
 
 }
 }
+*/
