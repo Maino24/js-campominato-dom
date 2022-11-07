@@ -1,9 +1,15 @@
+let difficolta = document.getElementById(`difficolta`)
+let griglia = document.getElementById(`griglia`)
 
+let bomba
 
+let bombe = []
 
+let frase = document.getElementById(`punteggio`)
 
+let contatore = 0
 
-
+let isGameOver = false
 
 
 
