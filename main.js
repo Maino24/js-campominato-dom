@@ -19,6 +19,31 @@ function creazioneQuadrato(num){
     return div
 }
 
+difficolta.addEventListener(`change`, function(){
+
+    let difficoltaValue = difficolta.value
+    creaGioco(difficoltaValue)
+})
+
+
+function creaGioco (livelloDifficolta){
+
+    if(livelloDifficolta = `facile`){
+        bombe = []
+        generaBombe(1,100)
+        creaCelle(100)
+
+    }else if(livelloDifficolta = `medio`){
+        bombe = []
+        generaBombe(1,81)
+        creaCelle(81)
+    }else if(livelloDifficolta = `difficile`){
+        bombe = []
+        generaBombe(1,49)
+        creaCelle(49)
+    }
+
+}
 
 
 
