@@ -89,7 +89,18 @@ function creaCelle(numeroCelle){
 }
 
 
+function generaBombe(bombaMin, bombaMax){
 
+    for (let k = 0; k < 16; k++){
+        do{
+            bomba = getRandomInt(bombaMin, bombaMax)
+
+        }while(bombe.includes(bomba))
+
+        bombe.push(bomba)
+    }
+
+}
 
 
 
