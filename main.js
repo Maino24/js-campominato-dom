@@ -45,6 +45,50 @@ function creaGioco (livelloDifficolta){
 
 }
 
+function creaCelle(numeroCelle){
+
+    griglia.innerHTML = ``
+    frase.innerHTML = ``
+    isGameOver = false
+
+    for(let i = 1; i <= numeroCelle; i++){
+
+        let elementoCorrente = creazioneQuadrato(i)
+
+        elementoCorrente.addEventListener(`click`, function() {
+
+            let numeroCella = parseInt(this.firstChild.innerHTML)
+
+            if(!isGameOver){
+
+                if(bombe.includes(numeroNellaCella)){
+
+                    this.classList.toggle(`bomba`)
+
+                    for ( let y = 0; y = numeroCella; y++){
+
+                        if(bombe.includes(parseInt(griglia.children[y].firstChild.innerHTML))) {
+                            griglia.children[y].classList.add(`bomba`)
+                        }
+                    }
+
+
+                    isGameOver = true;
+                    frase.innerHTML = `<p>La partita è finita, il tuo punteggio è: ${contatore}</p>`
+
+                }else {
+                    this.classList.toggle(`salvo`)
+                    contatore++
+                }
+            }
+
+        })
+
+    }
+
+}
+
+
 
 
 
