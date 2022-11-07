@@ -12,6 +12,14 @@ let contatore = 0
 let isGameOver = false
 
 
+function creazioneQuadrato(num){
+    const div = document.createElement(`div`)
+    div.classList.add(`quadrato`)
+    div.innerHTML = `<span> $(num) </span>`
+    return div
+}
+
+
 
 
 
